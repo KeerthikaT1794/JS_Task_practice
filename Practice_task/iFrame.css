@@ -1,0 +1,25 @@
+*{
+    margin: 0 auto;
+    background: linear-gradient(#d7ebeb, #f4afe9, #9d7ef3);
+    
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#viewPage{
+    text-align: center;
+}
+ #mySelect{
+    padding: 10px 30px;
+    font-weight: bold;
+    border: 2px solid gray;
+}
+#myInput{
+    padding: 10px 60px;
+    border: 2px solid gray;
+}
+
+#framePage{
+    margin-top: 20px;
+    margin-left: 140px;
+}

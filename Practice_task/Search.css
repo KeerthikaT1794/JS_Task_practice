@@ -1,0 +1,22 @@
+* {
+    background: #f5e7f9;
+}
+
+h1 {
+    margin-left: 60px;
+}
+
+#searchInput, #searchButton, #startButton{
+    padding: 10px 30px;
+}
+
+#searchButton{
+    background-color: chocolate;
+}
+
+#userSearch,
+h1,
+ul {
+    margin-top: 20px;
+
+}

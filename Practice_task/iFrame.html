@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IFrame_Task</title>
+    <link rel="stylesheet" href="iFrame.css">
+</head>
+
+<body>
+
+    <div id="viewPage">
+        <select id="mySelect" onchange="myFunction()">
+            <option value="">Select a website:</option>
+            <option value="https://www.google.com">Google</option>
+            <option value="https://www.instagram.com">Instagram</option>
+            <option value="https://www.yahoo.com/">Yahoo</option>
+            <option value="https://www.bing.com">Bing</option>
+            <option value="https://www.wikipedia.org">Wikipedia</option>
+        </select>
+        <input type="text" id="myInput" onkeyup="myFunction()">
+    </div>
+
+
+    <div id="framePage">
+        <iframe id="myframe" src="" width="90%" height="500"></iframe>
+    </div>
+
+
+
+    <script type="text/javascript" src="iframe.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+*{
+    background-color: rgb(235, 225, 185);
+}
+
+h2 {
+    text-align: center;
+}
+
+#pagination{
+    margin-top: 10px;
+    text-align: center;
+}
+
+#pagination button{
+    margin-right: 8px;
+}

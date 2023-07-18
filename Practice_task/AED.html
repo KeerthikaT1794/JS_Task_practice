@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Table</title>
+
+  <style>
+    *{
+        margin: 0 auto;
+    }
+    #btn{
+        margin-left: 600px;
+        margin-top: 20px;
+    }
+
+    h1{
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    table{
+      margin-top: 40px;
+    }
+    table,th,tr,td{
+
+        border: 1px solid gray;
+        border-spacing: 0px;
+    }
+    th,td,tr{
+        padding: 20px;
+    }
+
+</style>
+
+</head>
+<body>
+
+  <h1>Employee Details</h1>
+    <table id="myTable">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Gender</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="myTableBody">
+          <tr>
+            <td>Keerthika</td>
+            <td>25</td>
+            <td>Female</td>
+            <td><button onclick="editRow(this)">Edit</button><button onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+          <tr>
+            <td>Audvik</td>
+            <td>22</td>
+            <td>Male</td>
+            <td><button onclick="editRow(this)">Edit</button><button onclick="deleteRow(this)">Delete</button></td>
+          </tr>
+        </tbody>
+      </table>
+      
+      <button id="btn" onclick="addRow()">Add Row</button>
+      
+
+      <script type="text/Javascript" src="AED_table.js"></script>
+
+</body>
+</html>
